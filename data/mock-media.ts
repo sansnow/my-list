@@ -8,6 +8,7 @@ export const mockMedia: Media[] = [
         coverUrl: "/images/naruto.jpg",
         description: "Naruto Uzumaki, a young outcast ninja who dreams of becoming the Hokage, the leader of his village",    
         releaseYear: 1999,
+        status: "completed"
     },
     {
         id: "1",
@@ -16,6 +17,7 @@ export const mockMedia: Media[] = [
         coverUrl: "/images/one piece.jpg",
         description: "Naruto Uzumaki, a young outcast ninja who dreams of becoming the Hokage, the leader of his village",    
         releaseYear: 1999,
+        status: "in_progress"
     },
     {
         id: "2",
@@ -24,12 +26,13 @@ export const mockMedia: Media[] = [
         coverUrl: "/images/batman.jpg",
         description: "A rich man becomes a superhero",
         releaseYear: 1989,
+        status: "completed"
     },
     {
         id: "3",
         type: "game",
         title: "undertale",
-        coverUrl: "undertale.webp"
-
+        coverUrl: "undertale.webp",
+        status: "on_hold",
     }
 ]

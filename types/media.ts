@@ -5,6 +5,13 @@ export type MediaType =
   | "book";
 //   | "music";
 
+export type StatusType =
+  | "planned"
+  | "in_progress"
+  | "completed"
+  | "on_hold"
+  | "dropped";
+
 export interface Media {
   id: string;
   type: MediaType;
@@ -12,5 +19,6 @@ export interface Media {
   description?: string;
   coverUrl: string;
   releaseYear?: number;
+  status: StatusType;
   // totalUnits?: number;
 }

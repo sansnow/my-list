@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Navbar from "@/Components/Navbar";
+import Navbar from "@/Components/ui/Navbar";
 import { getMedia } from "@/services/media-service";
 
 
@@ -9,11 +9,8 @@ export default async function Home() {
 
   
   return (
-    <div className="bg">
+    <div className="text-3xl">
       <Navbar></Navbar>
-      my list yipee
-
-      {media[0].title}
     </div>
   );
 }
