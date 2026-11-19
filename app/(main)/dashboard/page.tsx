@@ -11,7 +11,6 @@ export default async function Home() {
   
   return (
     <div className="text-3xl h-screen overflow-hidden">
-      <Navbar/>
       this is dashboard
     </div>
   );
