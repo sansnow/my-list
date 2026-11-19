@@ -2,7 +2,7 @@ import { Search } from "lucide-react";
 
 export default function Navbar() {
   return (
-    <div className="text-2xl p-3 flex items-center justify-between border-2 border-[#2b2c27] bg-[#0b150a] rounded-2xl mt-5">
+    <div className="w-full text-2xl p-3 flex items-center justify-between border-2 border-[#2b2c27] bg-[#0b150a] rounded-2xl mt-3">
       <h1>
         My List
       </h1>

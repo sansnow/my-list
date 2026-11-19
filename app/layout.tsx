@@ -28,7 +28,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       lang="en"
       className={`${outfit.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full mx-80  flex flex-col">{children}</body>
+      <body className="min-h-full">{children}</body>
     </html>
   );
 }
