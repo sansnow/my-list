@@ -12,5 +12,5 @@ export interface Media {
   description?: string;
   coverUrl: string;
   releaseYear?: number;
-  totalUnits?: number;
+  // totalUnits?: number;
 }
