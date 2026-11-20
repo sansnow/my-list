@@ -14,7 +14,7 @@ export const mockMedia: Media[] = [
         id: "1",
         type: "anime",
         title: "one_piece",
-        coverUrl: "/images/one piece.jpg",
+        coverUrl: "/images/one_piece.jpg",
         description: "Naruto Uzumaki, a young outcast ninja who dreams of becoming the Hokage, the leader of his village",    
         releaseYear: 1999,
         status: "in_progress"
@@ -32,7 +32,7 @@ export const mockMedia: Media[] = [
         id: "3",
         type: "game",
         title: "undertale",
-        coverUrl: "undertale.webp",
+        coverUrl: "/images/undertale.webp",
         status: "on_hold",
     }
 ]

@@ -2,6 +2,7 @@ import Image from "next/image";
 import Navbar from "@/Components/ui/Navbar";
 import { getMedia } from "@/services/media-service";
 import Sidebar from "@/Components/ui/Sidebar";
+import Link from "next/link";
 
 
 export default async function Home() {
@@ -11,8 +12,8 @@ export default async function Home() {
   
   return (
     <div className="text-3xl h-screen overflow-hidden">
-      <Navbar/>
-      <Sidebar/>
+      home page
+      <Link href={"/dashboard"}>dashboard</Link>
     </div>
   );
 }
