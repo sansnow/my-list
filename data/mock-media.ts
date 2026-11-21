@@ -33,6 +33,7 @@ export const mockMedia: Media[] = [
         type: "game",
         title: "undertale",
         coverUrl: "/images/undertale.webp",
+        releaseYear: 2012,
         status: "on_hold",
     }
 ]
