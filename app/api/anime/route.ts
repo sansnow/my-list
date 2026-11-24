@@ -22,11 +22,19 @@ const query = `
   `;
 
 type RawApiData = {
-  title: string;
-  description: string;
   id: number;
-  coverUrl: string;
-  releaseYear: number;
+  title: {
+    english: string | null;
+    romaji: string;
+  };
+  description: string;
+  coverUrl: {
+    large: string;
+    medium: string;
+    extraLarge: string;
+    color: string | null;
+  };
+  releaseYear: null | number;
 };
 
 export async function GET(request: NextRequest) {

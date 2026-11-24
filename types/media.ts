@@ -1,16 +1,8 @@
-export type MediaType =
-  | "anime"
-  | "movie"
-  | "game"
-  | "book";
+export type MediaType = "anime" | "movie" | "game" | "book";
 //   | "music";
 
 export type StatusType =
-  | "planned"
-  | "in_progress"
-  | "completed"
-  | "on_hold"
-  | "dropped";
+  "planned" | "in_progress" | "completed" | "on_hold" | "dropped";
 
 export interface Media {
   id: string;
@@ -22,3 +14,11 @@ export interface Media {
   status: StatusType;
   // totalUnits?: number;
 }
+
+export type RawAnimeApiData = {
+  title: string;
+  description: string;
+  id: number;
+  coverUrl: string;
+  releaseYear: number;
+};
